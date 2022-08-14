@@ -1,0 +1,46 @@
+.item {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 2fr;
+  grid-auto-rows: minmax(60px, auto);
+  justify-items: center;
+  align-items: center;
+  background-color: #e0dcbe;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px 1px gray;
+  padding: 0 20px;
+}
+
+.status {
+  display: block;
+  justify-self: start;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: #65b31b;
+}
+
+.offline {
+  background-color: #cd4969;
+}
+
+.avatar {
+  display: block;
+  width: 40px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.userName {
+  display: block;
+  width: fit-content;
+  justify-self: start;
+  margin: 0 0 0 20px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
